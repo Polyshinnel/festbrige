@@ -1,7 +1,13 @@
 <?php
 
 use App\Http\Controllers\Pages\AboutController;
+use App\Http\Controllers\Pages\ContactsController;
+use App\Http\Controllers\Pages\CorpController;
+use App\Http\Controllers\Pages\FamilyController;
+use App\Http\Controllers\Pages\FestivalController;
 use App\Http\Controllers\Pages\HomeController;
+use App\Http\Controllers\Pages\RetritsController;
+use App\Http\Controllers\Pages\SportController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +22,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', HomeController::class);
-Route::get('/corporate-events', AboutController::class);
-Route::get('/festivals', AboutController::class);
-Route::get('/sport-events', AboutController::class);
-Route::get('/family-celebrations', AboutController::class);
-Route::get('/retreats', AboutController::class);
-Route::get('/contacts', AboutController::class);
+Route::get('/corporate-events', CorpController::class);
+Route::get('/festivals', FestivalController::class);
+Route::get('/sport-events', SportController::class);
+Route::get('/family-celebrations', FamilyController::class);
+Route::get('/retreats', RetritsController::class);
+Route::get('/contacts', ContactsController::class);
