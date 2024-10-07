@@ -3,8 +3,7 @@
         <div class="footer__wrapper">
             <div class="footer-address">
                 <h2>FEST BRIDGE EAST EVENTS MANAGING L.L.C</h2>
-                <p>1 Office: {{$contacts['address'][0]}}</p>
-                <p>2 Office: {{$contacts['address'][1]}}</p>
+                <p>Office: {{$contacts['address'][0]}}</p>
             </div>
 
             <div class="footer-contacts">

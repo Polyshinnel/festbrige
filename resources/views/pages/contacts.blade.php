@@ -25,11 +25,7 @@
                             <div class="round-selector"></div>
                         </li>
                         <li>
-                            <p>1 Office: {{$contacts['address'][0]}}</p>
-                            <div class="round-selector"></div>
-                        </li>
-                        <li>
-                            <p>2 Office: {{$contacts['address'][1]}}</p>
+                            <p>Office: {{$contacts['address'][0]}}</p>
                             <div class="round-selector"></div>
                         </li>
                     </ul>
@@ -66,11 +62,7 @@
                                 <div class="round-selector"></div>
                             </li>
                             <li>
-                                <p>1 Office: {{$contacts['address'][0]}}</p>
-                                <div class="round-selector"></div>
-                            </li>
-                            <li>
-                                <p>2 Office: {{$contacts['address'][1]}}</p>
+                                <p>Office: {{$contacts['address'][0]}}</p>
                                 <div class="round-selector"></div>
                             </li>
                         </ul>
