@@ -13,7 +13,7 @@
             <div class="lang-switcher">
                 <a href="#" class="active">ENG</a>
                 <p>/</p>
-                <a href="#">RUS</a>
+                <a href="https://ru.festbridgeeast.ae/">RUS</a>
             </div>
 
             <div class="mobile-logo">
