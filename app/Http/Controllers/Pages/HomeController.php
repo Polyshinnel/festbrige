@@ -17,7 +17,10 @@ class HomeController extends BaseController
             [
                 'pageInfo' => $pageData['page_meta'],
                 'headerLinks' => $pageData['header'],
-                'contacts' => $pageData['contacts']
+                'contacts' => $pageData['contacts'],
+                'pageText' => $pageData['page_text'],
+                'counters' => $pageData['counters'],
+                'services' => $pageData['services']
             ]
         );
     }

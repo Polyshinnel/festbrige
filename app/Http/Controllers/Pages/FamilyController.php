@@ -17,7 +17,10 @@ class FamilyController extends BaseController
             [
                 'pageInfo' => $pageData['page_meta'],
                 'headerLinks' => $pageData['header'],
-                'contacts' => $pageData['contacts']
+                'contacts' => $pageData['contacts'],
+                'services' => $pageData['services'],
+                'pageText' => $pageData['page_text'],
+                'images' => $pageData['images']
             ]
         );
     }

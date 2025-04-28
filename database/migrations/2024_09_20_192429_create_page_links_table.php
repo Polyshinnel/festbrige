@@ -17,6 +17,8 @@ return new class extends Migration
             $table->unsignedBigInteger('page_id');
             $table->string('link');
             $table->timestamps();
+
+            $table->foreign('page_id')->references('id')->on('pages');
         });
 
         $dataItems = [
