@@ -30,6 +30,12 @@ use MoonShine\UI\Components\{Breadcrumbs,
     Layout\TopBar,
     Layout\Wrapper,
     When};
+use App\MoonShine\Resources\MainPageTextResource;
+use MoonShine\MenuManager\MenuItem;
+use App\MoonShine\Resources\MainPageGalleryResource;
+use App\MoonShine\Resources\PageImagesResource;
+use App\MoonShine\Resources\PageResource;
+use App\MoonShine\Resources\PageTextResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -44,6 +50,11 @@ final class MoonShineLayout extends AppLayout
     {
         return [
             ...parent::menu(),
+            MenuItem::make('MainPageTexts', MainPageTextResource::class),
+            MenuItem::make('MainPageGalleries', MainPageGalleryResource::class),
+            MenuItem::make('PageImages', PageImagesResource::class),
+            MenuItem::make('Pages', PageResource::class),
+            MenuItem::make('PageTexts', PageTextResource::class),
         ];
     }
 
