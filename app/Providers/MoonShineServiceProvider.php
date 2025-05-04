@@ -16,6 +16,7 @@ use App\MoonShine\Resources\MainPageGalleryResource;
 use App\MoonShine\Resources\PageImagesResource;
 use App\MoonShine\Resources\PageResource;
 use App\MoonShine\Resources\PageTextResource;
+use App\MoonShine\Resources\ContactInfoResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -37,6 +38,7 @@ class MoonShineServiceProvider extends ServiceProvider
                 PageImagesResource::class,
                 PageResource::class,
                 PageTextResource::class,
+                ContactInfoResource::class,
             ])
             ->pages([
                 ...$config->getPages(),
